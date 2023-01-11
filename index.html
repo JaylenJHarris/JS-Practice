@@ -9,15 +9,22 @@
 </head>
 <body>
     <div class="basicInfoBox">
-        <form>
-            <label for="">What is your first name?</label>
-            <input type="text">
-            <label for="">What is your last name?</label>
-            <input type="text">
-            <label for="">What year where you born?</label>
-            <input type="text">
-            <button type="submit"></button>
+        <form class="form">
+            <div>
+                <label for="firstName">What is your first name?</label>
+                <input type="text" id="firstName" name="firstName">
+            </div>
+            <div>
+                <label for="lastName">What is your last name?</label>
+                <input type="text" id="lastName" name="lastName">  
+            </div>
+            <div>
+                <label for="dob">What year where you born?</label>
+                <input type="text" id="yob" name="yob">
+            </div>
+            <button type="button" id="submitBtn">Submit</button>
         </form>
+        <h3 id="sentence"></h3>
     </div>
 
     <script src="./javascript.js"></script>
